@@ -1,0 +1,54 @@
+Admin Dashboard
+    Main Dashboard
+    Add NAS (Router)
+
+    Reseller
+        [Drop Down]   Tipe reseller Agen / Pengecer
+        [Drop Down]   If pengecer (select Agen) else (disable)
+        [Form]        Username
+        [Form]        Password
+        [Form]        Initial credit. Default 0
+        [Button]      Submit
+
+        [Table]         List Agen
+            [Col]       Nama Agen
+            [Col]       Jumlah pengecer
+            [Col]       Akumulasi voucher terjual / bulan
+            [Col]       Credit
+            [Col]       Action drop down button
+                        - Top Up
+                        - Top Down
+                        - Disable / Enable
+                        - Detail -> new page
+        
+        (new page | detail agen)
+        [Table]         Detail Agen
+            [Col]       Nama pengecer
+            [Col]       Voucher terjual / bulan
+            [Col]       Credit
+            [Col]       Action drop down button
+                        - Top Up
+                        - Top Down
+                        - Disable / Enable
+
+    Keuangan
+        [Submenu] Pengeluaran
+
+                [Drop Down] Jenis Pengeluaran
+                [Form]      Nama Pengeluaran
+                [Form]      Tanggal
+                [Form]      Jumlah Pengeluaran
+
+                [Table]     List Pengeluaran
+                    [Col]   Nama
+                    [Col]   Jenis
+                    [Col]   Tanggal
+                    [Col]   Jumlah
+                    
+        [Submenu] Profit / Loss Report
+
+    Setting
+        [Submenu] Account Setting
+        [Submenu] Company Setting
+
+        
