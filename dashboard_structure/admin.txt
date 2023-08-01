@@ -1,0 +1,73 @@
+Admin Dashboard
+    [Menu] DASHBOARD
+    [Menu] NAS
+        [Submenu] Mikrotik
+            [Table] Mikrotik List
+                [col]   Status (Ping) 
+                [col]   Router Name
+                [col]   Area
+                [col]   IP & Port 
+        
+        [Submenu] Profile
+            [Table] Profile List
+                [col]   Name
+                [col]   Area
+                [col]   Price
+                [col]   Agen Profit
+                [col]   Pengecer Profit
+
+    [Menu] RESELLER
+        [Submenu] Agen
+            [Table] List Agen
+                [col]   Nama Agen
+                [col]   Area
+                [col]   Jumlah pengecer
+                [col]   Akumulasi voucher terjual / bulan
+                [col]   Credit
+                [col]   Action drop down button
+                        - Top Up
+                        - Top Down
+                        - Disable / Enable
+                        - Detail -> goto List Pengecer
+
+        [Submenu] Pengecer
+            [Table] List Pengecer
+                [col]   Nama pengecer
+                [col]   Area
+                [col]   Agen uplink
+                [col]   Voucher terjual / bulan
+                [col]   Credit
+                [col]   Action drop down button
+                        - Top Up
+                        - Top Down
+                        - Disable / Enable
+        
+        [Submenu] Add Reseller
+            [Drop Down]   Tipe reseller Agen / Pengecer
+            [Drop Down]   If pengecer (select Agen) else (disable)
+            [Drop Down]   Area
+            [Form]        Username
+            [Form]        Password
+            [Form]        Initial credit. Default 0
+            [Button]      Submit
+
+    [Menu] KEUANGAN
+        [Submenu] Pengeluaran
+            [Drop Down] Jenis Pengeluaran
+            [Form]      Nama Pengeluaran
+            [Form]      Tanggal
+            [Form]      Jumlah Pengeluaran
+
+            [Table]     List Pengeluaran
+                [col]   Nama
+                [col]   Jenis
+                [col]   Tanggal
+                [col]   Jumlah
+                
+        [Submenu] Profit / Loss Report
+
+    [Main] Setting
+        [Submenu] Account Setting
+        [Submenu] Company Setting
+
+        
